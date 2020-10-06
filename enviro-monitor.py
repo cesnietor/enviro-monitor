@@ -42,8 +42,7 @@ f"Sorry! This program requires Python >= 3.6 😅"
 
 
 logger = logging.getLogger('enviro')
-hdlr = logging.FileHandler(
-    '/home/pi/Desktop/enviro/cesnietor/enviro-monitor/error.log')
+hdlr = logging.FileHandler('./error.log')
 formatter = logging.Formatter('%(asctime)s %(levelname)s %(message)s')
 hdlr.setFormatter(formatter)
 logger.addHandler(hdlr)
