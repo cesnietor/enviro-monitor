@@ -481,7 +481,7 @@ try:
                                out_temp_string, font_xxl, align_right=True)
             # outside weather icon
             out_weather_icon = Image.open(
-                f"{path}/icons/icons_openweathermap/{out_weather_now.icon.lower()}2.png")
+                f"{path}/icons/openweathermap/{out_weather_now.icon.lower()}2.png")
             out_weather_icon = out_weather_icon.resize(wicon_size)
             img.paste(out_weather_icon, (74, 14), mask=out_weather_icon)
             # Outside Weather description
