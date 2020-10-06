@@ -6,7 +6,7 @@ Also, the display can be turned on/off by passing your finger near the light sen
 
 <img src="./enviro.jpeg" width="60%">
 
-Python library and more steps to install can be found on https://github.com/pimoroni/enviroplus-python
+Python library and more steps to install can be found on [pimoroni/enviroplus-python](https://github.com/pimoroni/enviroplus-python)
 
 ## Installing
 
